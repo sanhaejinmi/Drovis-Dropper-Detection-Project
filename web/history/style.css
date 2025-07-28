@@ -777,3 +777,15 @@
   position: relative;
   flex: 0 0 auto;
 }
+
+/* style.css 또는 내부 style 태그에 추가 */
+.menu-divider {
+  border: none;
+  height: 3px;
+  background-color: #e0e0e0; /* 연회색 */
+  margin: 16px 0 8px 0; /* 위아래 여백 조절 */
+  width: 100%;
+}
+#new-button {
+  cursor: pointer;
+}
