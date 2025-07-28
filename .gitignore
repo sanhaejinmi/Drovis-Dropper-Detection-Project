@@ -4,3 +4,4 @@ __pycache__/
 *.sqlite3
 .vscode/
 .env
+# drovis.db 추후 추가
