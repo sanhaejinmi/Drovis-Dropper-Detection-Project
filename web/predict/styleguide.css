@@ -1,0 +1,209 @@
+:root {
+  --primarytype-grey-2: rgba(108, 112, 116, 1);
+  --primaryblue: rgba(26, 94, 193, 1);
+  --white: rgba(255, 255, 255, 1);
+  --secondary-sh1-500-font-family: "Roboto", Helvetica;
+  --secondary-sh1-500-font-weight: 500;
+  --secondary-sh1-500-font-size: 13px;
+  --secondary-sh1-500-letter-spacing: 0px;
+  --secondary-sh1-500-line-height: 20px;
+  --secondary-sh1-500-font-style: normal;
+  --secondary-sh2-400-font-family: "Roboto", Helvetica;
+  --secondary-sh2-400-font-weight: 400;
+  --secondary-sh2-400-font-size: 12px;
+  --secondary-sh2-400-letter-spacing: 0px;
+  --secondary-sh2-400-line-height: 16px;
+  --secondary-sh2-400-font-style: normal;
+  --heading-h3-font-family: "Inter", Helvetica;
+  --heading-h3-font-weight: 700;
+  --heading-h3-font-size: 18px;
+  --heading-h3-letter-spacing: -0.20000000298023224px;
+  --heading-h3-line-height: 26px;
+  --heading-h3-font-style: normal;
+  --body-small-font-family: "Inter", Helvetica;
+  --body-small-font-weight: 400;
+  --body-small-font-size: 14px;
+  --body-small-letter-spacing: 0px;
+  --body-small-line-height: 20px;
+  --body-small-font-style: normal;
+  --body-tiny-font-family: "Inter", Helvetica;
+  --body-tiny-font-weight: 400;
+  --body-tiny-font-size: 12px;
+  --body-tiny-letter-spacing: 0px;
+  --body-tiny-line-height: 18px;
+  --body-tiny-font-style: normal;
+  --body-tinystrong-font-family: "Inter", Helvetica;
+  --body-tinystrong-font-weight: 600;
+  --body-tinystrong-font-size: 12px;
+  --body-tinystrong-letter-spacing: 0px;
+  --body-tinystrong-line-height: 18px;
+  --body-tinystrong-font-style: normal;
+  --body-smallstrong-font-family: "Inter", Helvetica;
+  --body-smallstrong-font-weight: 600;
+  --body-smallstrong-font-size: 14px;
+  --body-smallstrong-letter-spacing: 0px;
+  --body-smallstrong-line-height: 20px;
+  --body-smallstrong-font-style: normal;
+  --caption-small-font-family: "Inter", Helvetica;
+  --caption-small-font-weight: 400;
+  --caption-small-font-size: 12px;
+  --caption-small-letter-spacing: 0px;
+  --caption-small-line-height: 16px;
+  --caption-small-font-style: normal;
+  --shadow-centreop4: 0px 4px 6px 0px rgba(33, 33, 33, 0.04), 0px 4px 50px 0px
+    rgba(33, 33, 33, 0.08);
+  --alias-textcolor-default: var(--brand-neutral-nr11);
+  --alias-textcolor-secdefault: var(--brand-neutral-nr07);
+  --alias-textcolor-primary: var(--brand-primary-pr10);
+  --alias-textcolor-disabled: var(--brand-neutral-nr06);
+  --alias-strokecolor-lightgrey: var(--brand-neutral-nr03);
+  --alias-bgcolor-primary: var(--brand-primary-pr10);
+  --alias-bgcolor-lightgrey: var(--brand-neutral-nr02);
+  --alias-button-primaryoutline-default: var(--brand-neutral-nr01);
+  --alias-button-primary-disabled: var(--brand-neutral-nr04);
+  --alias-button-neutraloutline-default: var(--brand-neutral-nr01);
+  --alias-bgcolor-light: var(--brand-neutral-nr01);
+  --alias-button-primaryoutline-stroke: var(--brand-primary-pr10);
+  --alias-button-neutraloutline-stroke: var(--brand-neutral-nr04);
+  --alias-strokecolor-primary: var(--brand-primary-pr10);
+  --spacing-spacing-xxxl: 40px;
+  --spacing-spacing-sm: 8px;
+  --spacing-spacing-xxxs: 2px;
+  --spacing-spacing-smd: 12px;
+  --spacing-spacing-xs: 6px;
+  --spacing-spacing-md: 16px;
+  --spacing-spacing-lg: 24px;
+  --brand-neutral-nr11: rgba(11, 11, 11, 1);
+  --brand-neutral-nr07: rgba(109, 109, 109, 1);
+  --brand-primary-pr10: rgba(24, 73, 214, 1);
+  --brand-neutral-nr06: rgba(133, 133, 133, 1);
+  --brand-neutral-nr03: rgba(231, 231, 231, 1);
+  --brand-neutral-nr01: rgba(255, 255, 255, 1);
+  --brand-neutral-nr09: rgba(48, 48, 48, 1);
+  --brand-neutral-nr02: rgba(250, 250, 250, 1);
+  --brand-primary-pr08: rgba(59, 103, 233, 1);
+  --brand-neutral-nr08: rgba(84, 84, 84, 1);
+  --brand-neutral-nr04: rgba(206, 206, 206, 1);
+  --brand-neutral-nr10: rgba(35, 35, 35, 1);
+  --brand-radi-xl: 16px;
+  --radii-radi-mlg: 8px;
+  --radii-radi-lg: 12px;
+}
+
+/*
+
+To enable a theme in your HTML, simply add one of the following data attributes to an HTML element, like so:
+
+<body data-alias-mode="light">
+    <!-- the rest of your content -->
+</body>
+
+You can apply the theme on any DOM node, not just the `body`
+
+*/
+
+[data-alias-mode="light"] {
+  --alias-textcolor-default: var(--brand-neutral-nr11);
+  --alias-textcolor-primary: var(--brand-primary-pr10);
+  --alias-textcolor-disabled: var(--brand-neutral-nr06);
+  --alias-strokecolor-lightgrey: var(--brand-neutral-nr03);
+  --alias-bgcolor-lightgrey: var(--brand-neutral-nr02);
+  --alias-button-primaryoutline-default: var(--brand-neutral-nr01);
+  --alias-button-primary-disabled: var(--brand-neutral-nr04);
+  --alias-button-neutraloutline-default: var(--brand-neutral-nr01);
+  --alias-bgcolor-light: var(--brand-neutral-nr01);
+  --alias-button-neutraloutline-stroke: var(--brand-neutral-nr04);
+}
+
+[data-alias-mode="dark"] {
+  --alias-textcolor-default: var(--brand-neutral-nr01);
+  --alias-textcolor-primary: var(--brand-primary-pr08);
+  --alias-textcolor-disabled: var(--brand-neutral-nr08);
+  --alias-strokecolor-lightgrey: var(--brand-neutral-nr09);
+  --alias-bgcolor-lightgrey: var(--brand-neutral-nr09);
+  --alias-button-primaryoutline-default: var(--brand-neutral-nr11);
+  --alias-button-primary-disabled: var(--brand-neutral-nr09);
+  --alias-button-neutraloutline-default: var(--brand-neutral-nr11);
+  --alias-bgcolor-light: var(--brand-neutral-nr10);
+  --alias-button-neutraloutline-stroke: var(--brand-neutral-nr08);
+}
+
+[data-spacing-mode="default"] {
+  --spacing-spacing-xxxl: 40px;
+  --spacing-spacing-sm: 8px;
+  --spacing-spacing-xxxs: 2px;
+  --spacing-spacing-smd: 12px;
+  --spacing-spacing-xs: 6px;
+  --spacing-spacing-md: 16px;
+  --spacing-spacing-lg: 24px;
+}
+
+[data-spacing-mode="medium"] {
+  --spacing-spacing-xxxl: 44px;
+  --spacing-spacing-sm: 12px;
+  --spacing-spacing-xxxs: 6px;
+  --spacing-spacing-smd: 16px;
+  --spacing-spacing-xs: 10px;
+  --spacing-spacing-md: 20px;
+  --spacing-spacing-lg: 28px;
+}
+
+[data-spacing-mode="large"] {
+  --spacing-spacing-xxxl: 50px;
+  --spacing-spacing-sm: 18px;
+  --spacing-spacing-xxxs: 12px;
+  --spacing-spacing-smd: 22px;
+  --spacing-spacing-xs: 16px;
+  --spacing-spacing-md: 26px;
+  --spacing-spacing-lg: 34px;
+}
+
+[data-spacing-mode="big"] {
+  --spacing-spacing-xxxl: 52px;
+  --spacing-spacing-sm: 20px;
+  --spacing-spacing-xxxs: 14px;
+  --spacing-spacing-smd: 24px;
+  --spacing-spacing-xs: 18px;
+  --spacing-spacing-md: 28px;
+  --spacing-spacing-lg: 36px;
+}
+
+[data-brand-mode="core"] {
+  --brand-primary-pr10: rgba(24, 73, 214, 1);
+  --brand-primary-pr08: rgba(59, 103, 233, 1);
+}
+
+[data-brand-mode="brand-1"] {
+  --brand-primary-pr10: rgba(21, 104, 226, 1);
+  --brand-primary-pr08: rgba(62, 132, 237, 1);
+}
+
+[data-brand-mode="brand-2"] {
+  --brand-primary-pr10: rgba(99, 91, 255, 1);
+  --brand-primary-pr08: rgba(130, 124, 255, 1);
+}
+
+[data-brand-mode="brand-3"] {
+  --brand-primary-pr10: rgba(48, 197, 247, 1);
+  --brand-primary-pr08: rgba(89, 209, 249, 1);
+}
+
+[data-radii-mode="default"] {
+  --radii-radi-mlg: 8px;
+  --radii-radi-lg: 12px;
+}
+
+[data-radii-mode="medium"] {
+  --radii-radi-mlg: 16px;
+  --radii-radi-lg: 24px;
+}
+
+[data-radii-mode="large"] {
+  --radii-radi-mlg: 24px;
+  --radii-radi-lg: 36px;
+}
+
+[data-radii-mode="big"] {
+  --radii-radi-mlg: 32px;
+  --radii-radi-lg: 48px;
+}
