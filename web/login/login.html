@@ -1,25 +1,30 @@
 <!DOCTYPE html>
 <html lang="ko">
+  <!--<head>영역: 눈에 보이지 X-->
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- 뷰포트 설정: 모바일 최적화 -->
+    <!-- 최대 확대 방지 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <meta charset="utf-8" />
     <link rel="stylesheet" href="globals.css" />
     <link rel="stylesheet" href="style.css" />
     <title>로그인 페이지</title>
   </head>
+  <!--<body>영역: 눈에 보이지 O-->
   <body>
     <div class="login">
       <div class="container">
+        <!--(사이트 상단 메뉴)-->
         <header class="header-nav">
-          <img class="logo" src="img/logo.png" alt="로고" />
+          <img class="logo" src="img/Logo.svg" alt="로고" />
           <nav class="navbar">
             <ul>
-              <li><a href="#" class="home">어떤</a></li>
-              <li><a href="#" class="nav-item">메뉴를</a></li>
-              <li><a href="#" class="nav-item">넣어야</a></li>
-              <li><a href="#" class="nav-item">할지</a></li>
+              <li><a href="#" class="home">MAIN</a></li>
+              <li><a href="#" class="nav-item">UPLOAD</a></li>
+              <li><a href="#" class="nav-item">HISTORY</a></li>
             </ul>
           </nav>
+          <!--(로그인/회원가입 버튼)-->
           <div class="login-sign-up">
             <button class="login-button">
               <span>로그인</span>
@@ -30,9 +35,12 @@
           </div>
           <div class="divider"></div>
         </header>
+
+        <!--(로그인 폼)-->
         <main class="main-content">
-          <img class="main-logo" src="img/image.png" alt="메인 로고" />
+          <img class="main-logo" src="img/Logo.svg" alt="메인 로고" />
           <section class="sign-in">
+            <!--(로그인 폼 제목)-->
             <h1>로그인</h1>
             <form class="login-form">
               <div class="form-group">
@@ -46,20 +54,27 @@
               <button type="submit" class="submit-button">
                 <span>로그인</span>
               </button>
+              <!--(이용약관 동의 메시지)-->
               <p class="terms-notice">
                 계속 진행하면, <a href="#">이용약관</a> 과 <a href="#">개인정보 처리 방침</a>에 동의하는 것으로
                 간주됩니다.
               </p>
+            <!--(아이디 찾기/비밀번호 찾기)-->
             </form>
             <div class="account-links">
               <a href="#" class="find-id">아이디 찾기</a>
+              <span class="account-link-divider"></span> <!-- 간격 또는 구분자용 -->
               <a href="#" class="find-password">비밀번호 찾기</a>
             </div>
+
+          <!--(하단 회원가입 버튼)-->
           </section>
           <button class="signup-link">
             <span>회원가입 하기</span>
           </button>
         </main>
+
+        <!--(푸터 영역)-->
         <footer class="footer">
           <div class="links">
             <a href="#">도움말</a>
