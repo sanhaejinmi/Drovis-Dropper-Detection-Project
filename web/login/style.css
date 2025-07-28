@@ -553,6 +553,17 @@
   margin-bottom: 48px;
 }
 
+/* 중앙 배치 */
+.sign-in {
+  align-items: center;
+}
+
+.sign-in h1 {
+  text-align: center;
+  width: 100%;
+}
+
+
 .login-form {
   display: flex;
   flex-direction: column;
@@ -563,6 +574,8 @@
   display: flex;
   flex-direction: column;
   gap: 4px;
+  width: 100%;
+  max-width: 528px;
 }
 
 .form-group label {
@@ -577,6 +590,11 @@
   border-radius: 12px;
   padding: 0 16px;
   font-size: 16px;
+
+  box-sizing: border-box;   /* padding 포함한 width 계산 */
+  width: 100%;              /* 부모 기준 꽉 차게 */
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .submit-button {
@@ -763,14 +781,20 @@
 
 .account-links {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; /* 양쪽 정렬 */
+  width: 100%; /* form 안에서 꽉 차게 */
+  max-width: 528px; /* 입력창과 동일한 너비로 */
+  margin: 0 auto;
+  margin-top: 48px;
+  padding: 0 8px;
 }
 
 .account-links a {
+  color: #111111;
   text-decoration: underline;
-  color: #111;
   font-size: 16px;
 }
+
 
 .signup-link {
   margin-top: 32px;
