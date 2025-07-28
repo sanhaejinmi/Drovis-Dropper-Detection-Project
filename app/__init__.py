@@ -4,7 +4,7 @@ from flask_jwt_extended import JWTManager
 from app.db import db
 from app.routes.auth import auth_bp
 from app.config import *
-from app.models.blacklist import TokenBlocklist
+from app.models.blacklist_DB import TokenBlocklist
 from datetime import datetime
 
 jwt = JWTManager()
