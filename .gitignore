@@ -5,3 +5,4 @@ __pycache__/
 .vscode/
 .env
 # drovis.db 추후 추가
+# uploads 추가
